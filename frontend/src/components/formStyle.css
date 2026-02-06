@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.hero{
+  @apply text-3xl font-bold text-[#e6a911] flex flex-col items-center mb-4
+}
+
+.outer {
+  @apply bg-[#FCE597] h-screen flex items-center justify-center;
+}
+
+.form-container {
+  @apply flex flex-col gap-4 max-w-md w-full p-6 bg-[#FEF2CF] shadow-lg rounded-xl;
+}
+
+.input-field {
+  @apply border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-1 focus:ring-[#e6a911] ;
+}
+
+.submit-btn {
+  @apply bg-[#e6a911]  text-gray-800 py-2 rounded-lg hover:bg-[#FCE597] transition duration-300 mb-2 font-medium
+}
+
+.forgot-pass{
+  @apply flex flex-row justify-between text-xs text-[#e6a911]
+}
+
+h6{
+  padding-left: 5px; padding-top: 1px; font-size:12px; color: black;
+}
+span{
+   color: blue; text-decoration-line: underline;
+}
