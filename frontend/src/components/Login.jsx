@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import api from '../api/axios';
-import './formStyle.css';;
+import './formStyle.css';
 
 
 const Login = () => {
