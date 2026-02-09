@@ -5,7 +5,7 @@ const EditJob = () => {
   const [status, setStatus] = useState("Applied");
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#FEF2CF]">
+    <div className="w-full flex justify-center mt-25">
       <div className="w-full max-w-lg bg-yellow-50 rounded-xl shadow-lg p-6">
         
         <h2 className="hero">
