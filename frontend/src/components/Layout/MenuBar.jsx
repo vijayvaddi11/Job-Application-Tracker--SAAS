@@ -16,7 +16,7 @@ const MenuBar = () => {
         <div className="flex items-center gap-5 mr-5">
           <button><span><IoNotifications className="text-black text-2xl" /></span></button>
           <button><span><IoSettings  className="text-black text-2xl" /></span></button>
-          <button className="bg-[#e6a911]  text-gray-800 p-[8px]  rounded-lg hover:bg-[#FCE597] transition duration-300 mb-2 font-medium font-sans
+          <button className="bg-[#e6a911] border  text-gray-800 p-[8px]  rounded-lg hover:bg-[#FCE597] transition duration-300 mb-2 font-medium font-sans
 }">Log Out</button>
         </div>
       </div>
