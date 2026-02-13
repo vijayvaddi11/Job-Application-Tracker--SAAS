@@ -41,7 +41,7 @@ const jobSchema = Schema({
      },
 
      notes:{
-          type:String,
+          type:String 
      }
 
 
