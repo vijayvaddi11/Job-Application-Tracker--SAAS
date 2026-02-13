@@ -6,7 +6,7 @@ const EditJob = () => {
 
   return (
     <div className="w-full flex justify-center mt-25">
-      <div className="w-full max-w-lg bg-yellow-50 rounded-xl shadow-lg p-6">
+      <div className="w-full max-w-xl bg-yellow-50 rounded-xl shadow-lg p-6">
         
         <h2 className="hero">
           Edit Job
@@ -27,7 +27,7 @@ const EditJob = () => {
         />
 
         {/* Status */}
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex items-center gap-3 mb-3">
           <select
             className="px-4 py-2 border-gray-400 border rounded-lg  focus:outline-none focus:ring-1 focus:ring-[#FCE597] ;"
             value={status}
@@ -36,9 +36,10 @@ const EditJob = () => {
             <option>Applied</option>
             <option>Interview</option>
             <option>Offer</option>
+            <option>Rejected</option>
           </select>
 
-          {["Applied", "Interview", "Offer"].map((item) => (
+          {["Applied", "Interview", "Offer","Rejected"].map((item) => (
             <button
               key={item}
               onClick={() => setStatus(item)}
